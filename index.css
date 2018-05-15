@@ -1,0 +1,278 @@
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:"Myriad Pro";
+	width:100%;
+	height: 100%;
+    background-size: auto;
+    background: black;
+	background: linear-gradient(white,black);
+}
+
+#giris{
+	width:100%;
+	height:30px;
+	background:#800000;
+	margin-top:0px;
+
+}
+
+#giris form{
+	float:right;
+	margin-right:100px;
+	margin-top:5px;
+
+}
+
+#giris form input{
+	padding-left:10px;
+}
+
+#logo{
+
+	float:left;
+	margin-top:0px;
+	margin-left:25px;
+}
+
+#logo img{
+	width:190px;
+	height:125px;
+	margin-top:0px;
+
+
+}
+	
+#menu{
+
+	float:right;
+	margin-top:25px;
+	margin-right:35px;
+	
+}
+
+#menu ul{
+	list-style:none;
+}
+
+#menu ul li{
+	padding-right:2px;
+	padding-top:0px;
+	padding-left:2px;
+	float:left;
+}
+
+#menu ul li a{
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-decoration:none;
+	color:black;
+	border-left:2px solid;
+	border-width:2px;
+	border-color:#800000;
+}
+
+#menu ul li a:hover { 
+    color: #800000;
+	font-weight: bold;
+}
+
+#hizlimenu{
+	position:absolute;
+	right:45px;
+	top:120px;
+	width:auto;
+	height:auto;
+
+}
+#hizlimenu ul li{
+	list-style:none;
+    margin:0;
+    padding:10px;
+	float:right;
+	
+}
+#hizlimenu img{
+	width:30px;
+	height:30px;
+	padding:10px;
+}
+
+#galeri{
+
+	width:60%;
+	height:auto;
+	margin-top:200px;
+	margin-left:80px;
+	margin-bottom:50px;
+}
+
+#galeri img{
+	width:750px;
+	height:400px;
+	border-radius: 10px 40px 20px;
+}
+
+#slider{
+	margin-top:0px;
+	color:blue;
+}
+
+#slider ul{
+	list-style:none;
+	padding-top:0px;
+}
+
+#slider ul li{
+	float:left;
+}
+
+#slider ul li a{
+	text-decoration:none;
+	color:white;
+	border-left:1px solid;
+	border-color:#800000;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#slider ul li a:hover { 
+    color: #ff8000;
+	font-weight: bold;
+	border-color:gray;
+}
+
+#soru{
+	position:absolute;
+	width:200px;
+	height:460px;
+	right:50px;
+	top:220px;
+
+
+	background-color:white;
+}
+
+#baslik p{
+	margin-top:0px;
+	color:white;
+	padding-top:5px;
+}
+
+#baslik{
+	margin-top:0px;
+	width:200px;
+	height:30px;
+	text-align:center;
+	background-color:#800000;
+}
+
+#soru1{
+	margin-top:0px;
+	width:200px;
+	height:320px;
+	background-color:white;
+	text-align:center;
+	font-size:15px;
+	float:left;
+}
+
+#soru1 img{
+	width:100px;
+	height:150px;
+	padding:10px;
+}
+
+#footercont{
+	width:100%;
+	height:190px;
+	margin-top:75px;
+	margin-bottom:0px;
+	background-color:#1a1a1a;
+	float:left;
+}
+
+
+#hizlimenu2{
+	width:160px;
+	height:130px;
+	float:left;
+	margin-left:1px;
+	margin-top:15px;
+	margin-bottom:0px;
+}
+
+#hizlimenu2 ul{
+	list-style:none;
+	margin-left:10px;
+	margin-top:4px;
+}
+#hizlimenu2 ul li{
+	padding-top:3px;
+}
+#hizlimenu2 ul li a{
+	color:white;
+
+	
+}
+#hizlimenu2 b{
+	color:white;
+	font-family:"Verdana";
+	text-align:center;
+	margin-top:2px;
+	margin-left:48px;
+}
+
+#sosyal{
+	width:auto;
+	height:auto;
+	margin-left:170px;
+	margin-top:13px;
+}
+#sosyal b {
+	color:white;
+	font-family:"Verdana";
+	text-align:center;
+	margin-left:85px;
+}
+
+#sosyal ul{
+	list-style:none;
+	margin-left:45px;
+	margin-top:5px;
+}
+
+#sosyal ul li{
+	padding-top:8px;
+	float:left;
+	padding:4px;
+}
+
+#sosyal img{
+	width:30px;
+	height:30px;
+	filter:invert(100%);
+}
+
+#telif{
+	width:250px;
+	height:50px;
+	margin-right:30px;
+	margin-left:1050px;
+	margin-top:100px;
+	margin-bottom:0px;
+}
+	
+#telif b{
+	color:white;
+	float:right;
+	margin:0px;
+	font-size:12px;
+}
+
+#hizlimenu2 ul li a:hover { 
+    color:gray;
+}
